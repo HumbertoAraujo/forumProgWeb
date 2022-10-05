@@ -1,65 +1,32 @@
 h1{
-
 font-family: sans-serif;
-
-color: indigo;
-
+color: rgb(0, 93, 130);
 }
 
 fieldset {
-
 text-align: center;
-
 background-color: #eeee;
-
 margin-left:35%;
-
 margin-right:35%;
-
 border-radius: 15px;
-
-border: solid indigo;
-
+border: solid rgb(9, 0, 130);
 }
 
 legend {
-
-background-color: rgb(44, 3, 44);
-
+background-color: rgb(22, 81, 168);
 font-size: 1.5em;
-
 color: white;
-
 padding: 5px 100px;
-
 border-radius: 8px;
-
 }
 
-input, button {
-
+input, .button {
 align-items: center;
-
+text-decoration: none;
 width: 100px;
-
 flex-direction: row;
-
 border-radius: 5px;
-
 padding: 5px 5px;
-
 }
 
-input.limpar,.enviar,.site {
 
-justify-content: space-around;
-
-align-items: center;
-
-background:rgb(44, 3, 44) ;
-
-color: white;
-
-border: none;
-
-}
